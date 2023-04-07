@@ -1,0 +1,35 @@
+.new-expense__controls {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid; */
+}
+
+.new-expense__control {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  justify-content: center;
+  text-align: start;
+  font-size: 1.3rem;
+  gap: 1rem;
+  margin: 0 2rem;
+}
+
+.new-expense__control input {
+  height: 2.5rem;
+  width: 15rem;
+  border-radius: 0.5rem;
+  border: none;
+  text-align: center;
+}
+
+.new-expense__control input:focus {
+  outline: none;
+}
+
+.add-expense__actions {
+  padding: 1rem 2rem;
+}
+.add-expense__actions > button {
+  border-radius: 0.7rem;
+}
